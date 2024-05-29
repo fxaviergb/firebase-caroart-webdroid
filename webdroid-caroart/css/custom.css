@@ -1,0 +1,37 @@
+
+.logo .img-responsive {
+  height: 100px;
+  padding-left: 22%;
+}
+
+@media screen and (max-width: 991px) {
+  .header-center {
+    display: none;
+  }
+
+  .header-right {
+    padding-left: 100px
+  }
+
+  #toggle-mobile-menu {
+    top: 0px !important;
+    font-size: 30pt !important;
+  }
+}
+
+  
+[class~="home-3"] [class~="header-top"] [class~="logo"]:before {
+  top: -0%;
+}
+
+[class~="home-3"] [class~="header-top"] {
+  border-radius: 20px;
+}
+
+.logo-text-caroart{
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
